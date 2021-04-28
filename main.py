@@ -12,7 +12,7 @@ First Task: OPEN, READ, ASSIGN
 #***************************************************
 '''
 # assign data to "text"
-dataFolder = Path(r'C:\Users\ncssa\PycharmProjects\open_data_from_text\data_store.txt')
+dataFolder = Path(r'C:\Users\ncssa\PycharmProjects\dreamWork\sample-1.txt')
 text = dataFolder.read_text()
 # split string to a list
 list1 = text.rsplit(" ")
@@ -47,3 +47,11 @@ f = open("final-1.txt", "a+")  # create/open a new txt file for the final result
 for i in decoded_list1:
     f.write("%s " % i)
 f.close()
+
+'''
+****************************************************
+Third Task: TEST the script
+    Step 1: open multiple files
+    Step 2: run test
+#***************************************************
+'''
