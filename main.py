@@ -32,3 +32,12 @@ def decoder(work):
 
 # call the decoder function
 print("test: ", decoder(list1))
+
+'''
+****************************************************
+Second Task: CONVERT, CREATE NEW TEXT FILE
+    Step 1: convert list to String
+    Step 2: create new Text File
+    Step 3: save the string to the new Text File
+#***************************************************
+'''
