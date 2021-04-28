@@ -14,10 +14,9 @@ First Task: OPEN, READ, ASSIGN
 # assign data to "text"
 dataFolder = Path(r'C:\Users\ncssa\PycharmProjects\open_data_from_text\data_store.txt')
 text = dataFolder.read_text()
-
 # split string to a list
 list1 = text.rsplit(" ")
-print(list1)
+print("list to decode: ", list1)
 
 
 # this is the decoder function
@@ -31,7 +30,8 @@ def decoder(work):
 
 
 # call the decoder function
-print("test: ", decoder(list1))
+decoded_list1 = decoder(list1)
+print("decoded list: ", decoded_list1)
 
 '''
 ****************************************************
@@ -41,3 +41,9 @@ Second Task: CONVERT, CREATE NEW TEXT FILE
     Step 3: save the string to the new Text File
 #***************************************************
 '''
+
+f = open("final-1.txt", "a+")  # create/open a new txt file for the final result
+# write the decoded_list_1 in the text file.
+for i in decoded_list1:
+    f.write("%s " % i)
+f.close()
