@@ -51,7 +51,7 @@ f.close()
 '''
 ****************************************************
 Third Task: TEST the script
-    Step 1: open multiple files
-    Step 2: run test
+    Step 1: write unittest
+    Step 2: run unittest
 ****************************************************
 '''
