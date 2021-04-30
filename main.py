@@ -53,5 +53,18 @@ f.close()
 Third Task: TEST the script
     Step 1: write unittest
     Step 2: run unittest
+    https://github.com/NorbertSapi/unitTestDreamWork.git
+****************************************************
+'''
+
+# unittest is up and running for the decoder.
+
+'''
+****************************************************
+FUTURE Task:
+    - use decorator to reduce time and save memory.
+    - open and loop through multiple files
+    - for line sys.stdin:
+
 ****************************************************
 '''
