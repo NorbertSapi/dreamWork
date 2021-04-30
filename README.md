@@ -21,3 +21,9 @@ Second Task: CONVERT, CREATE NEW TEXT FILE
 Third Task: TEST the script
     Step 1: open multiple files
     Step 2: run test
+   https://github.com/NorbertSapi/unitTestDreamWork.git
+   
+ FUTURE Task:
+    - use decorator to reduce time and save memory.
+    - open and loop through multiple files
+    - for line sys.stdin:
