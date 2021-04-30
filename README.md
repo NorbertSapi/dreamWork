@@ -27,3 +27,4 @@ Third Task: TEST the script
     - use decorator to reduce time and save memory.
     - open and loop through multiple files
     - for line sys.stdin:
+    - extract online data (this could be the next project)
